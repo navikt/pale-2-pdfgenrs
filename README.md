@@ -1,5 +1,4 @@
 [![Build status](https://github.com/navikt/pale-2-pdfgenrs/workflows/Deploy%20to%20dev%20and%20prod/badge.svg)]
-(https://github.com/navikt/pale-2-pdfgenrs/workflows/Deploy%20to%20dev%20and%20prod/badge.svg)
 # Pale-2 Pdfgenrs
 Repository for pale-2 templates
 
