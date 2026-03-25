@@ -30,6 +30,7 @@
 #set page(margin: 1cm)
 #set text(font: "Source Sans Pro", size: 10pt)
 #set table(stroke: 1pt + black, inset: 4pt)
+#show "\u{2011}": "-"
 
 // Header with NAV logo
 #grid(
