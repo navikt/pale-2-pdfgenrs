@@ -36,10 +36,10 @@ spec:
         - id: loki
   resources:
     limits:
-      memory: 1024Mi
+      memory: 512Mi
     requests:
       cpu: 15m
-      memory: 700Mi
+      memory: 128Mi
   accessPolicy:
     inbound:
       rules:
