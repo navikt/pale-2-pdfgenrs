@@ -12,5 +12,5 @@ docker run \
         -p 8080:8080 \
         -e DEV_MODE=true \
         -it \
-        --rm 
+        --rm \
         ghcr.io/navikt/pdfgenrs:0.1.17
