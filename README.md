@@ -30,6 +30,9 @@ a PDF to your browser
 The template and data directory structure both follow the `<application>/<template>` structure.
 Example url: `http://0.0.0.0:8080/api/v1/genpdf/pale-2/pale-2`
 
+### Example pdf output
+[pdf](pale-2.pdf)
+
 ## When upgrading pdfgenrs docker image
 
 Remember that the version for the docker image is in 3 places, `Dockerfile` and 2 places in `run_development.sh`, remember to update all 3 places.
