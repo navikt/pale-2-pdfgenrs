@@ -31,6 +31,8 @@
 #set text(font: "Source Sans Pro", size: 10pt)
 #set table(stroke: 1pt + black, inset: 4pt)
 #show "\u{2011}": "-"
+#show "\u{2642}": "M"
+#show "\u{2640}": "K"
 
 // Header with NAV logo
 #grid(
