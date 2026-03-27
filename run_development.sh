@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CURRENT_PATH="$(cd "$(dirname "$1")"; pwd)/$(basename "$1")"
+CURRENT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 docker pull ghcr.io/navikt/pdfgenrs:0.1.26
 docker run \
@@ -12,5 +12,5 @@ docker run \
         -p 8080:8080 \
         -e DEV_MODE=true \
         -it \
-        --rm 
+        --rm \
         ghcr.io/navikt/pdfgenrs:0.1.26
