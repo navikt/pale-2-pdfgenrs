@@ -33,6 +33,7 @@
 #show "\u{2011}": "-"
 #show "\u{2642}": "M"
 #show "\u{2640}": "K"
+#show "\u{1FA7A}": ""
 
 // Header with NAV logo
 #grid(
