@@ -30,10 +30,7 @@
 #set page(margin: 1cm)
 #set text(font: "Source Sans Pro", size: 10pt)
 #set table(stroke: 1pt + black, inset: 4pt)
-#show "\u{2011}": "-"
-#show "\u{2642}": "Mann"
-#show "\u{2640}": "Kvinne"
-#show "\u{1FA7A}": "Stetoskop"
+#show regex("[^\x00-\x7F]"): ""
 
 // Header with NAV logo
 #grid(
