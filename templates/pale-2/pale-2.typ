@@ -34,6 +34,7 @@
 #show "\u{2642}": "Mann"
 #show "\u{2640}": "Kvinne"
 #show "\u{1FA7A}": "Stetoskop"
+#show "\u{1F539}": "[*]"
 
 // Header with NAV logo
 #grid(
