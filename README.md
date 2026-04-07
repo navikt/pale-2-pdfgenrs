@@ -33,7 +33,7 @@ Example url: `http://0.0.0.0:8080/api/v1/genpdf/pale-2/pale-2`
 ### Example pdf output
 [pdf](pale-2.pdf)
 
-![Preview](pale-2-preview.png)
+[![Preview](pale-2-preview.png)](pale-2-preview.png)
 
 ### Local development with JetBrains IDE
 
