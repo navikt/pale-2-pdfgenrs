@@ -12,5 +12,19 @@
     "weight": 700,
     "style": "NORMAL",
     "subset": false
+  },
+  {
+    "family": "DejaVu Sans",
+    "path": "DejaVuSans.ttf",
+    "weight": 400,
+    "style": "NORMAL",
+    "subset": false
+  },
+  {
+    "family": "DejaVu Sans",
+    "path": "DejaVuSans-Bold.ttf",
+    "weight": 700,
+    "style": "NORMAL",
+    "subset": false
   }
 ]
