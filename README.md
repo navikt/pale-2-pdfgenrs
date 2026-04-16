@@ -35,22 +35,13 @@ Example url: `http://0.0.0.0:8080/api/v1/genpdf/pale-2/pale-2`
 
 [![Preview](pale-2-preview.png)](pale-2-preview.png)
 
-### Local development with JetBrains IDE
+### Local preview development 
 
-When editing the Typst templates (`.typ` files under `templates/`) in a JetBrains IDE (IntelliJ IDEA, Rider, etc.), install the [Typst Pro](https://plugins.jetbrains.com/plugin/30231-typst-pro) plugin to get a full editing experience:
-
-1. Open **Settings / Preferences → Plugins → Marketplace**, search for **Typst Pro** and install it (or install it directly from the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/30231-typst-pro)).
-2. Restart the IDE. The required [Tinymist](https://github.com/Myriad-Dreamin/tinymist) language server is downloaded automatically on first use.
-3. Open any `.typ` file. You will get:
-   - Syntax highlighting and code completion
-   - Inline error diagnostics and quick-fixes
-   - A **live preview** panel (open it with the preview icon in the editor toolbar) that re-renders the document as you type, with bidirectional scroll sync
-4. To preview the final output with real data, keep `./run_development.sh` running in a terminal and open `http://0.0.0.0:8080/api/v1/genpdf/pale-2/pale-2` in your browser. The Docker container hot-reloads template changes automatically when `DEV_MODE=true` is set.
+To preview the final output with real data, keep `./run_development.sh` running in a terminal and open `http://0.0.0.0:8080/api/v1/genpdf/pale-2/pale-2` in your browser. The Docker container hot-reloads template changes automatically when `DEV_MODE=true` is set.
 
 ## When upgrading pdfgenrs docker image
 
 Remember that the version for the docker image is in 3 places, `Dockerfile` and 2 places in `run_development.sh`, remember to update all 3 places.
-
 
 
 ### Contact
