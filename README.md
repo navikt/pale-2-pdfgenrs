@@ -41,7 +41,9 @@ To preview the final output with real data, keep `./run_development.sh` running 
 
 ## When upgrading pdfgenrs docker image
 
-Remember that the version for the docker image is in 3 places, `Dockerfile` and 2 places in `run_development.sh`, remember to update all 3 places.
+Remember that the version for the docker image is in 1 places, `Dockerfile` and 2 places in `run_development.sh`,and 2 places in
+`.github/workflows/test.yml`
+remember to update all 6 places.
 
 
 ### Contact
