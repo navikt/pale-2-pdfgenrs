@@ -2,7 +2,7 @@
 
 CURRENT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-docker pull ghcr.io/navikt/pdfgenrs:0.1.30
+docker pull ghcr.io/navikt/pdfgenrs:0.1.34
 docker run \
         -v $CURRENT_PATH/templates:/app/templates \
         -v $CURRENT_PATH/fonts:/app/fonts \
@@ -13,4 +13,4 @@ docker run \
         -e DEV_MODE=true \
         -it \
         --rm \
-        ghcr.io/navikt/pdfgenrs:0.1.30
+        ghcr.io/navikt/pdfgenrs:0.1.34
