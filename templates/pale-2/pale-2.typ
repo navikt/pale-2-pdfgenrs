@@ -28,14 +28,8 @@
 #let tf(_, y) = if y == 0 { header_fill } else { none }
 
 #set page(margin: 1cm)
-#set text(font: "Source Sans Pro", size: 10pt)
+#set text(font: ("Source Sans 3", "Noto Color Emoji", "DejaVu Sans", "Noto Sans Myanmar"), lang: "nb", size: 10pt)
 #set table(stroke: 1pt + black, inset: 4pt)
-#show "\u{2011}": "-"
-#show "\u{2642}": "Mann"
-#show "\u{2640}": "Kvinne"
-#show "\u{1FA7A}": "Stetoskop"
-#show "\u{1F539}": "[*]"
-#show "\u{1F449}": "->"
 
 // Header with NAV logo
 #grid(
