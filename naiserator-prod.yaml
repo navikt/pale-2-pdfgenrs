@@ -27,10 +27,17 @@ spec:
     periodSeconds: 5
     failureThreshold: 30
   leaderElection: false
+  prometheus:
+    enabled: true
+    path: /internal/metrics
+  leaderElection: false
   observability:
     logging:
       destinations:
         - id: loki
+    autoInstrumentation:
+      enabled: true
+      runtime: sdk
   resources:
     limits:
       memory: 1024Mi

@@ -1,4 +1,4 @@
-#let data = json("/data.json")
+#let data = json("/data/pale-2/pale-2.json")
 #let legeerklaering = data.legeerklaering
 #let validationResult = data.validationResult
 #let mottattDato = data.at("mottattDato", default: "")
@@ -27,15 +27,10 @@
 #let header_fill = rgb("#add8e6")
 #let tf(_, y) = if y == 0 { header_fill } else { none }
 
+#set document(title: "Legeerklæring")
 #set page(margin: 1cm)
-#set text(font: "Source Sans Pro", size: 10pt)
+#set text(font: ("Source Sans 3", "Noto Color Emoji", "DejaVu Sans", "Noto Sans Myanmar"), lang: "nb", size: 10pt)
 #set table(stroke: 1pt + black, inset: 4pt)
-#show "\u{2011}": "-"
-#show "\u{2642}": "Mann"
-#show "\u{2640}": "Kvinne"
-#show "\u{1FA7A}": "Stetoskop"
-#show "\u{1F539}": "[*]"
-#show "\u{1F449}": "->"
 
 // Header with NAV logo
 #grid(
@@ -45,7 +40,7 @@
     fill: (_, _) => header_fill,
     [*#if validationResult.status == "INVALID" [AVVIST ]LEGEERKLÆRING*],
   ),
-  align(right + horizon, image("resources/NAVLogoRed.png", width: 100%, alt: "NAV logo")),
+  align(right + horizon, image("/resources/NAVLogoRed.png", width: 100%, alt: "NAV logo")),
 )
 
 // Section 0: Erklæringen gjelder
