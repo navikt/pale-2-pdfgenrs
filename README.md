@@ -1,5 +1,10 @@
 ![Build status](https://github.com/navikt/pale-2-pdfgenrs/workflows/Deploy%20to%20dev%20and%20prod/badge.svg)
 
+> [!WARNING]
+> This repo is deprecated. [pale-2-sak](https://github.com/navikt/pale-2-sak) generates PDFs directly itself.
+> 
+> [isbehandlingsdialog](https://github.com/navikt/isbehandlerdialog/pull/295/changes) has migrated to their own PDF generator.
+
 # Pale-2-pdfgenrs
 Repository for pale-2 templates
 
